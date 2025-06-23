@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Especial</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+    <!-- Open Graph para compartilhamento social -->
+    <meta property="og:title" content="Convite de Casamento: Andressa & Gabriel" />
+    <meta property="og:description" content="Venha celebrar conosco esse momento especial! Veja detalhes, confirme presença e compartilhe essa alegria." />
+    <meta property="og:image" content="https://seudominio.com.br/images/casal-header.jpg" />
+    <meta property="og:url" content="https://seudominio.com.br/" />
+    <meta property="og:type" content="website" />
+</head>
+
+<body class="bg-[#b8684f]"> 
+
+  <header class="header-custom min-h-screen flex items-center justify-center shadow-md">
+    <div class="max-w-2xl mx-auto text-center px-4 py-24">
+      <h1 class="text-5xl sm:text-7xl font-bold title-custom">
+        <span class="letter-animation">Andressa & Gabriel</span>
+      </h1>
+      <p class="mt-8 text-xl sm:text-3xl italic title-custom">
+        "Um cordão de três dobras não se rompe com facilidade."
+      </p>
+      <hr class="my-2 border-white/30 w-1/2 mx-auto">
+      <p class="mt-2 text-lg sm:text-xl title-custom font-bold">
+        <strong>Eclesiastes 4:12</strong>
+      </p>
+      <div class="mt-10 flex flex-col items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 heart-custom" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+      </div>
+      <!-- Seta indicando para descer a página -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#FFF5E6] animate-bounce absolute left-1/2 -translate-x-1/2 bottom-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 9l-7 7-7-7" />
+      </svg>
+    </div>
+  </header>
+
+<section class="py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div class="w-full">
+                <img src="images/casal-header.jpg" alt="Andressa e Gabriel" class="w-full h-auto rounded-lg shadow-lg" loading="lazy">
+            </div>
+            <div class="w-full">
+                <img src="images/save-the-date.png" alt="Save the Date" class="w-full h-auto rounded-lg shadow-lg" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold title-custom mb-6">Nossa Mensagem</h2>
+        <div class="space-y-6">
+            <p class="text-lg sm:text-xl title-custom leading-relaxed">
+                "Agradecemos cada um de vocês por fazerem parte da nossa história. Este momento é especial porque será compartilhado com pessoas que nos inspiram e nos fazem sorrir todos os dias."
+            </p>
+            <p class="text-lg sm:text-xl title-custom leading-relaxed">
+                "Nossa jornada juntos tem sido repleta de amor, risadas e momentos inesquecíveis. E agora, queremos celebrar este novo capítulo da nossa vida com aqueles que sempre estiveram ao nosso lado."
+            </p>
+            <p class="text-lg sm:text-xl title-custom leading-relaxed italic">
+                "Com todo nosso carinho,<br>Andressa & Gabriel"
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold title-custom text-center mb-12">Nossos Momentos</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/galeria1.jpg" alt="Momento especial 1" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria2.jpg" alt="Momento especial 2" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria3.jpg" alt="Momento especial 3" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria4.jpg" alt="Momento especial 4" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria5.jpg" alt="Momento especial 5" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria6.jpg" alt="Momento especial 6" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria7.jpg" alt="Momento especial 7" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria8.jpg" alt="Momento especial 8" loading="lazy" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/galeria9.jpg" alt="Momento especial 9" loading="lazy" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold title-custom mb-8">Local da Cerimônia</h2>
+        <div class="space-y-6 mb-8">
+            <h3 class="text-2xl title-custom">AVEMI - Associação de Veteranos de Missal</h3>
+            <p class="text-lg title-custom">
+                Situada em um local privilegiado próximo ao Lago de Missal, 
+                a AVEMI oferece um ambiente encantador para celebrar este momento especial.
+            </p>
+            <p class="text-lg title-custom">
+                Próximo ao cruzamento da PR-495 e PR-497 - Centro<br>
+                Missal - PR, 85890-000
+            </p>
+        </div>
+        
+        <!-- Mapa do Google -->
+        <div class="w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.9641853928547!2d-54.2483713!3d-25.1003943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f40579e43a00bd%3A0x50c6ff4dd90ca1fe!2sAVEMI%20-%20Associa%C3%A7%C3%A3o%20de%20Veteranos%20de%20Missal!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        
+        <div class="mt-6">
+            <a href="https://www.google.com/maps/place/AVEMI+-+Associa%C3%A7%C3%A3o+de+Veteranos+de+Missal/@-25.1003943,-54.2457965,17z/data=!3m1!4b1!4m6!3m5!1s0x94f40579e43a00bd:0x50c6ff4dd90ca1fe!8m2!3d-25.1003943!4d-54.2457965!16s%2Fg%2F11h5t8jgq3?entry=ttu" 
+               target="_blank" 
+               class="inline-block bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg transition-colors duration-300 title-custom">
+                Ver no Google Maps
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 px-4">
+    <div class="max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold title-custom text-center mb-12">Confirmar Presença</h2>
+        <form class="space-y-6 bg-white/10 backdrop-blur-sm p-8 rounded-xl shadow-lg" 
+              id="rsvpForm">
+            <div>
+                <label for="nome" class="block text-lg title-custom mb-2">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required
+                    class="w-full px-4 py-2 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50">
+            </div>
+
+            <div>
+                <label for="acompanhantes" class="block text-lg title-custom mb-2">Número de Acompanhantes</label>
+                <input type="number" id="acompanhantes" name="acompanhantes" min="0" max="5" required
+                    class="w-full px-4 py-2 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50">
+            </div>
+
+            <div>
+                <label class="block text-lg title-custom mb-2">Presença</label>
+                <div class="flex gap-6">
+                    <label class="flex items-center space-x-2">
+                        <input type="radio" name="presenca" value="sim" required
+                            class="w-4 h-4 text-white focus:ring-white/50">
+                        <span class="title-custom">Sim</span>
+                    </label>
+                    <label class="flex items-center space-x-2">
+                        <input type="radio" name="presenca" value="nao" required
+                            class="w-4 h-4 text-white focus:ring-white/50">
+                        <span class="title-custom">Não</span>
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <label for="mensagem" class="block text-lg title-custom mb-2">Mensagem para os Noivos (opcional)</label>
+                <textarea id="mensagem" name="mensagem" rows="4"
+                    class="w-full px-4 py-2 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50"></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="submit"
+                    class="px-8 py-3 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-colors duration-300 title-custom text-lg">
+                    Confirmar Presença
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold title-custom mb-8">Contagem Regressiva</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div id="dias" class="text-4xl md:text-5xl font-bold title-custom">00</div>
+                <div class="text-lg title-custom mt-2">Dias</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div id="horas" class="text-4xl md:text-5xl font-bold title-custom">00</div>
+                <div class="text-lg title-custom mt-2">Horas</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div id="minutos" class="text-4xl md:text-5xl font-bold title-custom">00</div>
+                <div class="text-lg title-custom mt-2">Minutos</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div id="segundos" class="text-4xl md:text-5xl font-bold title-custom">00</div>
+                <div class="text-lg title-custom mt-2">Segundos</div>
+            </div>
+        </div>
+        <div class="text-2xl title-custom">
+            <p class="mb-2">Nosso grande dia será em</p>
+            <p class="text-3xl font-bold">19 de Julho de 2025</p>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de Mensagens dos Convidados -->
+<section id="mensagens" class="py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold title-custom mb-8">Mensagens dos Convidados</h2>
+        <p class="mb-4 text-lg sm:text-xl title-custom">Essas são as mensagens que aquecem nossos corações. Sinta-se à vontade para ler e compartilhar dessa alegria com a gente!</p>
+        <p id="mensagem-rotativa" class="text-xl sm:text-2xl italic title-custom">Carregando mensagens...</p>
+        <img src="images/message.jpeg" alt="Mensagem dos convidados" class="mx-auto mt-6 w-full max-w-sm rounded-lg shadow-lg" loading="lazy">
+    </div>
+</section>
+     
+</div>
+
+
+<footer class="bg-[#85351e] py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div class="text-center md:text-left">
+                <img src="images/igdev.png" alt="IGDev Logo" class="h-24 md:h-32 mx-auto md:mx-0 mb-6" loading="lazy">
+                <h3 class="text-2xl font-bold title-custom mb-4">IGDev</h3>
+                <p class="text-lg title-custom mb-4">
+                    Transformando sonhos em experiências digitais únicas. 
+                    Especialistas em criar websites e aplicativos que dão vida às suas ideias.
+                </p>
+                <a href="mailto:igdev.contato@gmail.com" 
+                   class="inline-block bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg transition-colors duration-300 title-custom">
+                    igdev.contato@gmail.com
+                </a>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="text-lg title-custom mb-4">
+                    "Cada projeto é uma história única, 
+                    e nós transformamos suas ideias em experiências digitais memoráveis."
+                </p>
+                <div class="flex justify-center md:justify-end gap-4">
+                    <a href="https://wa.me/554388716321?text=Olá,%20gostaria%20de%20saber%20mais%20informações%20sobre%20o%20trabalho%20de%20vocês." target="_blank" class="text-white hover:text-white/80 transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/igdev-git" target="_blank" class="text-white hover:text-white/80 transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    <a href="mailto:igdev.contato@gmail.com" class="text-white hover:text-white/80 transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-white/10 text-center">
+            <p class="text-white/80 title-custom">
+                © 2024 IGDev. Todos os direitos reservados.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
